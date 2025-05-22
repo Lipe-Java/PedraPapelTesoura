@@ -27,7 +27,7 @@ public class ProjetoPedraPapeltesoura {
             // Verifica se a escolha é válida (pedra, papel ou tesoura)
             if (escolha == 0 || escolha == 1 || escolha == 2) {
 
-                // Gera jogada aleatória da IA (0 a 2)
+                // Gera jogada aleatória da IA (0 a 3)
                 int jogadaIa = (int) (0 + Math.random() * 3);
 
                 // Mostra o que a IA escolheu
